@@ -5,6 +5,8 @@
  * Date: 019 19.02.17
  * Time: 17:48
  */
+
+/*
 if (isset ($_GET['page'])) {
     switch (($_GET['page'])) {
 
@@ -22,7 +24,7 @@ if (isset ($_GET['page'])) {
             exit();
     }
 }
-
+*/
 
 
 
@@ -35,18 +37,16 @@ echo <<<HTML
 
         </li>
         <li>
-            <a href="index.php?page=contact">Контакты</a>
+            <a href="contact.php">Контакты</a>
 
         </li>
         <li>
-            <a href="index.php?page=article">Статьи</a>
+            <a href="article.php">Статьи</a>
 
         </li>
         <li>
-            <a href="index.php?page=login">Логин</a>
-
+            <a href="login.php">Логин</a>
         </li>
-
     </ul>
  </div>
 HTML;
