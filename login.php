@@ -7,13 +7,6 @@
  */
 
 
-include "header.php";
-include "menu.php";
-
-
-
-
-
 session_start();
 
 if ($_POST) {
@@ -26,9 +19,15 @@ if ($_POST) {
     }
 }
 
+
+include "header.php";
+include "menu.php";
+
 if (!isset($_SERVER['PHP_AUTH_USER'])) {
-    header('WWW-Authenticate: Basic realm="My Realm"');
-    header('HTTP/1.0 401 Unauthorized');
+    if (!headers_sent()) {
+        header('WWW-Authenticate: Basic realm="My Realm"');
+        header('HTTP/1.0 401 Unauthorized');
+    }
     echo 'Please, input correct username and password!';
     echo '<form action="" method="post">
 <div><label>Username: </label><input type="text" name="uname"></div>
@@ -36,7 +35,6 @@ if (!isset($_SERVER['PHP_AUTH_USER'])) {
 <input type="submit" value="Log in">
 </form>
 ';
-    exit;
 } else {
     if (
         ($_SERVER['PHP_AUTH_USER'] == 'toster')
