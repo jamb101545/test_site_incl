@@ -1,0 +1,148 @@
+.titles {
+    font-family: Verdana;
+    font-size: 36px;
+    color: blueviolet;
+    margin: auto;
+    width: 1000px;
+    height: 40px;
+}
+.menu{
+    background-color: antiquewhite;
+}
+.menu a:hover {
+    background-color: crimson;
+}
+ul li{
+    display: inline-block;
+    padding-right: 20px;
+}
+li  a {
+    text-decoration: none;
+}
+
+.foto{
+    width: 100px;
+    padding: 10px;
+    float: left;
+
+}
+.about{
+
+    padding-left: 120px;
+    text-align: justify;
+    font-family: Verdana;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.exampl{
+    font-size: 30px;
+    font-style: italic;
+    color: crimson;
+
+}
+td {
+
+}
+td a {
+
+    text-decoration: none;
+    font-size: 22px;
+
+
+}
+
+.contakt {
+
+    padding-left: 120px;
+    font-family: Verdana;
+    font-size: 24px;
+}
+
+.menu_contakt{
+    font-family: Verdana;
+    font-size: 36px;
+    color: blueviolet;
+
+
+}
+
+.txt_contakt {
+    padding-left: 150px;
+    font-family: Verdana;
+    font-size: 16px;
+    line-height: 22px;
+
+}
+
+.soc_img {
+    width: 80px;
+    padding-right: 10px;
+
+}
+
+.article  {
+
+    font-family: Verdana;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+    padding-left: 50px;
+    width: 80%;
+
+
+}
+
+.article h3  {
+
+    font-family: Verdana;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+    font-style: italic;
+
+
+}
+
+.title_arc {
+    padding-left: 120px;
+    font-family: Verdana;
+    font-size: 36px;
+    color: slateblue;
+    font-weight: bold;
+}
+
+
+.test {
+
+    border: solid 1px;
+    color: red;
+}
+
+.comments  {
+    width: 180px;
+   float: left;
+    font-size: 18px;
+
+}
+.comment  {
+    border: 1px solid;
+    margin-bottom: 5px;
+    width: 300px;
+    padding: 5px;
+
+
+}
+.date {
+    font-style: italic;
+    font-size: 16px;
+    color: midnightblue;
+
+}
+
+.comment-text {
+    font-style: italic;
+    font-size: 20px;
+    color: darkslategrey;
+
+}
